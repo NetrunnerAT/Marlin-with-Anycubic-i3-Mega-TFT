@@ -36,7 +36,7 @@
 #define SDSS               53
 #define LED_PIN            13
 #define Z_MIN_PROBE_PIN     2
-#define FIL_RUNOUT_PIN	   19
+#define FIL_RUNOUT_PIN	   -1 //19
 
 #ifdef OutageTest
 	#define OUTAGETEST_PIN  79
@@ -90,8 +90,8 @@
 
 // Temperatursensoren
 #define TEMP_0_PIN         13
-#define TEMP_1_PIN         15
-#define TEMP_2_PIN         12
+#define TEMP_1_PIN         -1 //15
+#define TEMP_2_PIN         -1 //12
 #define TEMP_BED_PIN       14
 
 // Servos
